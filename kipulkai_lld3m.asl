@@ -3,7 +3,7 @@
  * --------------------------------------------------------------
  * Author: Benoit CHEVILLON for Univers-KiPulKai
  * Website: www.univers-kipulkai.fr
- * GitHub: 
+ * GitHub: github.com/BChevillon/kipulkai2_autosplitter
  * Contact: contact@univers-kipulkai.fr
  */
 
