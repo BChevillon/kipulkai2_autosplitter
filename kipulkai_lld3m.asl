@@ -22,7 +22,7 @@ startup
 update
 {
     string directoryPath = Path.GetDirectoryName(game.MainModule.FileName); 
-    string filePath = Path.Combine(directoryPath, "configuration.ini"); // Créer le chemin complet vers configuration.ini
+    string filePath = Path.Combine(directoryPath, "configuration.ini"); // Path to configuration.ini
     try
     {
         if (!File.Exists(filePath)) 
