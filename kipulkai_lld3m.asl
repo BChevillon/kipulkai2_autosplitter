@@ -34,7 +34,6 @@ update
         if (currentTimestamp == vars.lastConfigTimestamp) // If file has not been modified
             return;
         vars.lastConfigTimestamp = currentTimestamp;
-        print("LECTURE");
         string[] lines;
         
         // Read all lines
@@ -69,7 +68,6 @@ update
 
             if (vars.previousKid1Values[key] != newValue)
             {
-                print("Key: " + key + " Value: " + newValue);
                 vars.previousKid1Values[key] = newValue;   
                 if (vars.triggers_ids.Contains(newValue))  // If value is in the list of triggers
                 {
